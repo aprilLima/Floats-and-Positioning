@@ -1,0 +1,420 @@
+/*Metalab - Floats and Positioning Challenge*/
+
+#container
+{
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+.smallSquare
+{
+	width: 50px;
+	height: 50px;
+}
+
+.smallishSquare
+{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.mediumSquare
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+
+
+
+
+/* First row */
+#firstRow
+{
+	width: 100%;
+	height: 200px;
+}
+
+/*First column in first row (left half of blue square)*/
+.mediumSquare.blue
+{
+	position: relative;
+	background-color: #4a90e2;
+}
+
+.smallSquare.gray
+{
+	background-color: #4a4a4a;
+	float: left;
+}
+
+.smallSquare.gray.left
+{
+	position: absolute; 
+	top: 75px;
+	left: 50px;
+}
+
+.smallSquare.gray.right
+{
+	position: absolute;
+	top: 75px;
+	left: 150px;
+}
+
+/*Second column in first row (right half of blue square)*/
+.smallSquare.gray.invertedLeft
+{
+	position: absolute;
+	top: 75px;
+	left: 0px;
+}
+
+.smallSquare.gray.invertedRight
+{
+	position: relative;
+	top: 75px;
+	left: 100px;
+}
+
+/*Third column in first row (yellow swuare)*/
+.mediumSquare.yellow
+{
+	background-color: #f8e71c;
+	position: relative;
+}
+
+.smallSquare.topLeft
+{
+	float: left;
+	background-color: #4a4a4a;
+}
+
+.smallSquare.bottomRight
+{
+	position: absolute;
+	background-color: #4a4a4a;
+	top: 150px;
+	left: 150px;
+}
+
+/*Fourth column in first row (white-grayish square)*/
+.mediumSquare.grayish
+{
+	background-color: #d8d8d8;
+	position: relative;
+}
+
+.smallSquare.grayish
+{
+	background-color: #4a4a4a;
+	position: absolute;
+	top: 75px;
+	left: 75px;
+}
+
+/* Last, rightmost "square" in first row (red column, teal square and gray square) */
+.mediumSquare.red
+{
+	background-color: #ca1126;
+	position: relative;
+}
+
+.smallishWrapper
+{
+	width: 100px;
+	height: 200px;
+	float: right;
+}
+
+.smallishSquare.teal
+{
+	background-color: #50e3c2;
+}
+
+.smallishSquare.gray
+{
+	background-color: #4a4a4a;
+}
+
+
+
+
+
+
+/*Second row*/
+/*Second row is similar to the last row.*/
+#secondRow
+{
+	width: 1000px;
+	height: 100px;
+}
+
+.longRow.top
+{
+	width: 400px;
+	height: 100px;
+	background-color: #9013fe;
+	float: left;
+}
+
+.longerRow.top
+{
+	width: 600px;
+	height: 100px;
+	background-color: black;
+	float: left;
+}
+
+.longerRow.subRow
+{
+	height: 50%;
+}
+
+.longerRow.subRow.purple
+{
+	background-color: #bd10e0;
+}
+
+.longerRow.subRow.orange
+{
+	background-color: #f5a623;
+}
+
+.longerRow.squares.top
+{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.longerRow.squares.yellow
+{
+	background-color: #f8e71c;
+}
+
+.longerRow.squares.red
+{
+	background-color: #d00d2d
+}
+
+.longerRow.greenBar.top
+{
+	width: 200px;
+	height: 100%;
+	background-color: #417505;
+	float: right;
+}
+
+
+
+
+
+/*Third row*/
+#thirdRow
+{
+	width: 1000px;
+	height: 400px;
+	background-color: #d00d2d;
+}
+
+.mediumColumn
+{
+	width: 200px;
+	height: 400px;
+	background-color: gray;
+	float: left;
+	position: relative;
+}
+
+.mediumSquare.top
+{
+	background-color: #4a4a4a;
+}
+
+.mediumSquare.bottom
+{
+	background-color: #d8d8d8;
+}
+
+.mediumSquare.subrow
+{
+	width: 100%;
+	height: 50%;
+	float: left;
+	/*background-color: purple;*/
+}
+
+.smallishSquare.yellowSquare
+{
+	width: 100px;
+	height: 100px;
+	background-color: #f8e71c;
+	float: left;
+}
+
+.smallishSquare.orangeSquare
+{
+	width: 100px;
+	height: 100px;
+	background-color: #f5a623;
+	float: left;
+}
+
+.largeColumn
+{
+	width: 300px;
+	height: 400px;
+	background-color: #50e3c2;
+	float: left;
+}
+
+.largeColumn.red
+{
+	position: relative;
+	background-color: #d00d2d;
+}
+/*the white squares inside the big red rectangle*/
+.smallSquare.white
+{
+	background-color: #fff;
+}
+
+.smallSquare.white.left
+{
+	float: left;
+}
+
+.smallSquare.white.right
+{
+	float: right;
+}
+
+.smallSquare.white.left.bottom
+{
+	position: absolute;
+	top: 350px;
+}
+
+.smallSquare.white.right.bottom
+{
+	position: absolute;
+	top: 350px;
+	left: 250px;
+}
+
+.red.middleSquare
+{
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	position: absolute;
+	top: 150px;
+	left: 100px;
+}
+
+.fiveSquares
+{
+	width: 100%;
+	height: 50px;
+	float: left;
+	background-color: #fff;
+}
+
+.squares.green
+{
+	width: 50px;
+	height: 100%;
+	float: left;
+	background-color: #7ed321;
+}
+
+.squares.white
+{
+	width: 50px;
+	height: 100%;
+	float: left;
+}
+
+.stripe
+{
+	width: 100%;
+	height: 50px;
+	background-color: #d8d8d8;
+	float:left;
+}
+
+.stripe.green
+{
+	background-color: green;
+}
+
+
+
+
+
+/*Fourth row*/
+#fourthRow
+{
+	width: 1000px;
+	height: 100px;
+}
+
+.longRow.bottom
+{
+	width: 400px;
+	height: 100px;
+	background-color: #9013fe;
+	float: left;
+}
+
+.longerRow.bottom
+{
+	width: 600px;
+	height: 100px;
+	background-color: black;
+	float: left;
+}
+
+.longerRow.subRow
+{
+	height: 50%;
+}
+
+.longerRow.subRow.purple
+{
+	background-color: #bd10e0;
+}
+
+.longerRow.subRow.orange
+{
+	background-color: #f5a623;
+}
+
+.longerRow.squares.bottom
+{
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+
+.longerRow.squares.yellow
+{
+	background-color: #f8e71c;
+}
+
+.longerRow.squares.red
+{
+	background-color: #d00d2d
+}
+
+.longerRow.greenBar.bottom
+{
+	width: 200px;
+	height: 100%;
+	background-color: #417505;
+	float: left;
+}
