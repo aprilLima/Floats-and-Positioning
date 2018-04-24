@@ -1,5 +1,5 @@
 # Floats-and-Positioning
-Plain HTML and CSS challenge issued by <a href="https://github.com/csun-metalab/awesome-metalab" target="_blank">META+LAB</a> before being considered into their summer internship program in 2017. 
+Plain HTML and CSS challenge issued by <a href="https://github.com/csun-metalab/awesome-metalab" target="blank">META+LAB</a> before being considered into their summer internship program in 2017. 
 
 
 
