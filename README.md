@@ -1,7 +1,8 @@
 # Floats-and-Positioning
 Plain HTML and CSS challenge issued by <a href="https://github.com/csun-metalab/awesome-metalab" target="blank">META+LAB</a> before being considered into their summer internship program in 2017. 
 
-[META+LAB](https://github.com/csun-metalab/awesome-metalab){target="_blank"}
+##Objective
+The objective for the project is to implement this image of colored squares into plain HTML and CSS:
 
 
 
